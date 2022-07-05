@@ -75,12 +75,15 @@ string find_record(string record){
     string line;
     string result = "";
     //find location in file
-    while(getline(file, line)){
-        if(line.find(record) != string::npos){
-            result = line;
+    if (!is_file_empty(file))
+    {
+        while(getline(file, line)){
+            if(line.find(record) != string::npos){
+                result = line;
+            }
         }
+        file.close();
     }
-    file.close();
     
     return result;
 }
