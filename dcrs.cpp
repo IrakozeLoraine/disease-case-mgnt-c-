@@ -5,7 +5,7 @@
 #include<algorithm>
 #include<string>
 #include<thread>
-#include <set>
+#include<set>
 
 using namespace std;
 using namespace std::chrono;
@@ -341,20 +341,20 @@ void find_total_cases(string dis){
 }
 
 void user_manual(){
-    cout<<"========================================================="<<endl<<endl;
-    cout<<"*\t\t\t HELP MENU \t\t\t\t\t*"<<endl<<endl;
-   	cout<<"========================================================="<<endl<<endl;
+    cout<<"=============================================================================="<<endl;
+    cout<<"*\t\t\t\t    HELP MENU    \t\t\t\t*"<<endl;
+   	cout<<"=============================================================================="<<endl;
 
-    cout<<"add <Location> \t\t: Add a new location"<<endl;
-    cout<<"delete <Location> \t\t: Delete an existing"<<endl;
+    cout<<"add <Location> \t\t\t\t: Add a new location"<<endl;
+    cout<<"delete <Location> \t\t\t: Delete an existing"<<endl;
     cout<<"record <Location> <disease> <cases> \t: Record a disease and its cases"<<endl;
-    cout<<"list locations \t\t: List all existing locations"<<endl;
-    cout<<"list diseases \t\t: List existing Diseases in locations"<<endl;
-    cout<<"where <diseases>\t\t: Find where disease exists"<<endl;
+    cout<<"list locations \t\t\t\t: List all existing locations"<<endl;
+    cout<<"list diseases \t\t\t\t: List existing Diseases in locations"<<endl;
+    cout<<"where <diseases>\t\t\t: Find where disease exists"<<endl;
     cout<<"cases <location> <disease>\t\t: Find cases of a disease in location"<<endl;
-    cout<<"cases <disease> \t\t: Find total cases of a given disease"<<endl;
-    cout<<"help\t\t\t: Prints user manual"<<endl;
-    cout<<"Exit\t\t\t: Exit the program"<<endl;
+    cout<<"cases <disease> \t\t\t: Find total cases of a given disease"<<endl;
+    cout<<"help\t\t\t\t\t: Prints user manual"<<endl;
+    cout<<"Exit\t\t\t\t\t: Exit the program"<<endl;
 }
 
 void list_disease_cases(){
@@ -399,10 +399,10 @@ do
     cout<<"*\t Welcome to Disease Cases Reporting System!\t*"<<endl<<endl;
     cout<<"* ***************************************************** *"<<endl<<endl;
     cout<<"*\t\t\t\t\t\t\t*"<<endl<<endl;
-    cout<<"It is developed by Loraine Mukezwa Irakoze as practical*"<<endl<<endl;
+    cout<<"*It is developed by Loraine Mukezwa Irakoze as practical*"<<endl<<endl;
     cout<<"*evaluation for the end of Year 3.\t\t\t*"<<endl<<endl;
     cout<<"========================================================="<<endl<<endl;
-    cout<<"========================================================="<<endl<<endl;
+    cout<<"Starting Time: Thu Apr 05 23:59:08 CAT 2022"<<endl;
     cout<<"Need a help? Type 'help' then press Enter key."<<endl<<endl;
     cout<<"Console > ";
 
